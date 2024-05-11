@@ -11,8 +11,8 @@ The examples in this repository showcase the capabilities of HTML5 and CSS in cr
 To use these examples, simply clone the repository and open the desired HTML file in a web browser. Each example is self-contained and includes the necessary HTML and CSS code.
 
 ```bash
-git clone https://github.com/your-username/blog-site-examples.git
-cd blog-site-examples
+git clone git@github.com:Web-Course-Development/html5.git
+cd html5
 ```
 
 Feel free to modify and customize the examples according to your needs. You can add your own content, styles, and functionality to create a unique blog site.
