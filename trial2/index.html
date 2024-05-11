@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <style>
+    /* CSS styles for improved look and feel */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#weather">Weather</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi, I'm John Doe. Welcome to my blog!</p>
+    </section>
+
+    <section id="articles">
+      <h2>Articles</h2>
+      <article>
+        <h3>Article 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </article>
+      <article>
+        <h3>Article 2</h3>
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </article>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <p>Latest news updates go here.</p>
+    </section>
+
+    <section id="weather">
+      <h2>Weather</h2>
+      <p>Current weather information goes here.</p>
+    </section>
+
+    <section id="videos">
+      <h2>Videos</h2>
+      <!-- HTML5 video element -->
+      <video src="video.mp4" controls></video>
+    </section>
+
+    <section id="feedback">
+      <h2>Feedback</h2>
+      <!-- HTML5 form elements -->
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Sidebar</h2>
+    <p>Additional content or links can go here.</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2024 My Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
